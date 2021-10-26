@@ -1,0 +1,18 @@
+.TGS2620 :1 ;Figaro TGS2620 Alcohol, Solvent Vapors Gas Sensor
+TGS2620
+*STM U
+*NGS
+*PLB 1="HEATER_1" 2="SENSOR ELECTRODE (-)" 3="SENSOR ELECTRODE (+)" 4="HEATER_2"
+*MXP 4
+*DFN TGS2620
+~!Manufacturer_Name (Figaro)
+~!Manufacturer_Part_Number (TGS2620)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://docs-emea.rs-online.com/webdocs/065f/0900766b8065f2e8.pdf)
+~!Height (8.3mm)
+~!3D_Model (TGS2620)
+TGS2620
+1.1!U 2.1!U 3.1!U 4.1!U 

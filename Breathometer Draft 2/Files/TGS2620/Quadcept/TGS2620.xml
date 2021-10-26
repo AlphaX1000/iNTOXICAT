@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1841360/509358/2.49/4/4/Undefined or Miscellaneous/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c130_h80" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="31.496062992126">
+    <padshape layer="TOP" shape="round" width="51.181102362204" height="51.181102362204" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="59.055118110235" height="59.055118110235" />
+    <padshape layer="INNER" shape="round" width="51.181102362204" height="51.181102362204" />
+    <padshape layer="BOTTOM" shape="round" width="51.181102362204" height="51.181102362204" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="59.055118110235" height="59.055118110235" />
+  </padstyle>
+  <footprint name="TGS2620" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="c130_h80" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c130_h80" originx="0" originy="141.73228346457" rotation="90" />
+    <pcbpin number="3" name="3" style="c130_h80" originx="-141.73228346457" originy="141.73228346457" rotation="90" />
+    <pcbpin number="4" name="4" style="c130_h80" originx="-141.73228346457" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-291.33858267716" originy="-149.6062992126" endx="149.6062992126" endy="-149.6062992126" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="149.6062992126" originy="-149.6062992126" endx="149.6062992126" endy="291.33858267716" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="149.6062992126" originy="291.33858267716" endx="-291.33858267716" endy="291.33858267716" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-291.33858267716" originy="291.33858267716" endx="-291.33858267716" endy="-149.6062992126" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-251.968503937" originy="70.866141732283" endx="-251.968503937" endy="70.866141732283" width="7.8740157480314" />
+    <arc layer="TOP_ASSEMBLY" originx="-433.07086614173" originy="70.866141732283" startangle="180.0" sweepangle="180.0" radius="-181.10236220472" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="110.23622047244" originy="70.866141732283" endx="110.23622047244" endy="70.866141732283" width="7.8740157480314" />
+    <arc layer="TOP_ASSEMBLY" originx="-433.07086614173" originy="70.866141732283" startangle=".0" sweepangle="180.0" radius="-181.10236220472" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-251.968503937" originy="70.866141732283" endx="-251.968503937" endy="70.866141732283" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-433.07086614173" originy="70.866141732283" startangle="180.0" sweepangle="180.0" radius="-181.10236220472" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="110.23622047244" originy="70.866141732283" endx="110.23622047244" endy="70.866141732283" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-433.07086614173" originy="70.866141732283" startangle=".0" sweepangle="180.0" radius="-181.10236220472" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-3.9370078740157" originy="-118.11023622047" endx="-3.9370078740157" endy="-118.11023622047" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-7.8740157480314" originy="-118.11023622047" startangle="180.0" sweepangle="180.0" radius="-3.9370078740157" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="3.9370078740157" originy="-118.11023622047" endx="3.9370078740157" endy="-118.11023622047" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-7.8740157480314" originy="-118.11023622047" startangle=".0" sweepangle="180.0" radius="-3.9370078740157" width="7.8740157480314" />
+  </footprint>
+  <symbol name="TGS2620" originx="0" originy="0">
+    <line originx="200" originy="100" endx="2500" endy="100" width="0" />
+    <line originx="2500" originy="-200" endx="2500" endy="100" width="0" />
+    <line originx="2500" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="2500" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="2470" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="HEATER_1" />
+      <text name="pindes" originx="2560" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="2500" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="2470" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="SENSOR_ELECTRODE_(-)" />
+      <text name="pindes" originx="2560" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SENSOR_ELECTRODE_(+)" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="HEATER_2" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="4" />
+    </sympin>
+  </symbol>
+  <component name="TGS2620" designatorprefix="U" height="326.7716535433" footprint="TGS2620">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="HEATER_1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SENSOR_ELECTRODE_(-)" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SENSOR_ELECTRODE_(+)" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="HEATER_2" />
+    <attached_symbol gate="1" name="TGS2620" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://docs-emea.rs-online.com/webdocs/065f/0900766b8065f2e8.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Figaro TGS2620 Alcohol, Solvent Vapors Gas Sensor" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Figaro" />
+    <text name="Manufacturer_Part_Number" originx="2550" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="TGS2620" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+  </component>
+</quadcept_library>

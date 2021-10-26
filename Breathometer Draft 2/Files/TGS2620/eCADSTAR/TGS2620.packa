@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TGS2620"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-02-21-15:57:19)
+    (mountForm default
+        (footprintRef "TGS2620")
+        (spec "System")
+    )
+)

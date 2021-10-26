@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TGS2620
+D Figaro TGS2620 Alcohol, Solvent Vapors Gas Sensor
+K
+F https://docs-emea.rs-online.com/webdocs/065f/0900766b8065f2e8.pdf
+$ENDCMP
+#
+#End Doc Library

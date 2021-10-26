@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TGS2620'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Figaro", "TGS2620" (!) = "", "TGS2620", "Other", "", "", "", "", "Figaro TGS2620 Alcohol, Solvent Vapors Gas Sensor", "https://docs-emea.rs-online.com/webdocs/065f/0900766b8065f2e8.pdf", "8.3 mm"
+END_PART
+
+END.
