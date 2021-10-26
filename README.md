@@ -1,2 +1,2 @@
 # iNTOXICAT
-BLE Based Smart Solution for Drunk Driving for Personal Use
+BLE Based Smart Alcohol Breathalyzers to prevent Drunk Driving Cases for Personal Use
